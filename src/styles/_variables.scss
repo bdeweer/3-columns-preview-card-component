@@ -1,15 +1,31 @@
-$white-color: hsl(0, 100%, 100%);
-$navy-950-color: hsl(233, 47%, 7%);
-$blue-950-color: hsl(244, 37%, 16%);
-$purple-500-color: hsl(277, 64%, 61%);
+$white-color: hsl(0, 100%, 100%, 0.75);
+$black-color: hsl(0, 0%, 0%);
+$gray-100-color: hsl(0, 0%, 95%);
+$green-950-color: hsl(179, 100%, 13%);
+$green-500-color: hsl(170, 76%, 41%);
+$cyan-800-color: hsl(180, 100%, 21%);
+$cyan-500-color: hsl(183, 91%, 60%);
+$gold-500-color: hsl(31, 100%, 57%);
+$gold-200-color: hsl(47, 100%, 69%);
 
-$spacing-100: 0.5rem;
-$spacing-300: 1.5rem;
-$spacing-400: 2rem;
-$spacing-500: 2.5rem;
-$spacing-800: 4rem;
-$spacing-900: 4.5rem;
-$spacing-1000: 5rem;
+$spacing-0: 0rem; // 0px
+$spacing-100: 0.5rem; // 8px
+$spacing-300: 1.5rem; // 24px
+$spacing-400: 2rem; // 32px
+$spacing-500: 2.5rem; // 40px
+$spacing-600: 3rem; // 48px
+$spacing-1000: 5rem; // 80px
+
+/*Basé sur 15px */
+/*
+$spacing-0: 0rem; // 0px 
+$spacing-100: 0.5333rem; // 8px 
+$spacing-300: 1.6rem; // 24px 
+$spacing-400: 2.1333rem; // 32px 
+$spacing-500: 2.6667rem; // 40px 
+$spacing-600: 3.2rem; // 48px 
+$spacing-1000: 5.3333rem; // 80px
+*/
 
 $breakpoint-tablet: 768px;
 $breakpoint-desktop: 1440px;
