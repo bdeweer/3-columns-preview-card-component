@@ -26,7 +26,7 @@
 }
 
 .opacity-75 {
-  opacity: 75%;
+  opacity: 0.75;
 }
 
 .white {
@@ -137,5 +137,23 @@ button {
   cursor: pointer;
   color: $gray-100-color;
   padding-block: 10px;
-  padding-inline: 20px;
+  padding-inline: 25px;
+  border: 3px solid $gray-100-color;
+}
+
+button:hover {
+  border: 3px solid $white-color;
+  color: $white-color;
+}
+
+.sedans > button:hover {
+  background-color: $gold-500-color;
+}
+
+.suvs > button:hover {
+  background-color: $cyan-800-color;
+}
+
+.luxury > button:hover {
+  background-color: $green-950-color;
 }
