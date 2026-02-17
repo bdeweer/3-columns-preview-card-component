@@ -83,6 +83,9 @@ main {
   @include tablet {
     padding: $spacing-1000;
   }
+  @include desktop {
+    padding: $spacing-600;
+  }
 }
 
 .suvs {
@@ -91,6 +94,9 @@ main {
   @include tablet {
     padding: $spacing-1000;
   }
+  @include desktop {
+    padding: $spacing-600;
+  }
 }
 
 .luxury {
@@ -98,6 +104,9 @@ main {
   padding: $spacing-600;
   @include tablet {
     padding: $spacing-1000;
+  }
+  @include desktop {
+    padding: $spacing-600;
   }
 }
 
