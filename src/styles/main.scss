@@ -138,9 +138,7 @@ button {
   color: $gray-100-color;
   padding-block: 10px;
   padding-inline: 25px;
-  appearance: none;
-  -webkit-appearance: none;
-  border: 3px solid $gray-100-color;
+  border: 3px solid transparent;
 }
 
 button:hover {
